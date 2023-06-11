@@ -7,7 +7,7 @@ function Counter() {
   const [counter, updateCounter] = useState(0);
 
   function handlePlus() {
-    //updateCounter(state + 1);
+    //updateCounter(counter + 1);
     updateCounter((prevCount) => prevCount + 1);
   }
   function handleMinus() {

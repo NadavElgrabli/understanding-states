@@ -46,3 +46,11 @@
   background-color: white;
   color: black;
 }
+
+.valid-text {
+  color: green;
+}
+
+.invalid-text {
+  color: red;
+}

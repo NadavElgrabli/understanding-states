@@ -5,6 +5,9 @@ import DarkMode from "./components/DarkMode";
 import Form from "./components/Form";
 import Timer from "./components/Timer";
 import MessageContainer from "./components/MessageContainer";
+import SortFilter from "./components/SortFiler";
+import FormValidation from "./components/FormValidation";
+import Ticket from "./components/Ticket";
 
 function App() {
   return (
@@ -15,6 +18,14 @@ function App() {
       <ConditionalRendering></ConditionalRendering>
       <DarkMode></DarkMode>
       <MessageContainer></MessageContainer>
+      <SortFilter></SortFilter>
+      <FormValidation></FormValidation>
+      <Ticket
+        title="Sample Title"
+        text="A very long text....................................................................................................................................................................................................................................................................................................................................................................................................................."
+        writer="John Doe"
+        date="2023-06-10"
+      ></Ticket>
     </div>
   );
 }
